@@ -1,1 +1,1 @@
-{"buildCommand":"npm run build -w client","outputDirectory":"client/dist","installCommand":"npm install","rewrites":[{"source":"/((?!api/).*)","destination":"/index.html"}]}
+{"buildCommand":"npm run build -w client","outputDirectory":"client/dist","installCommand":"npm install --no-package-lock --include=optional","rewrites":[{"source":"/((?!api/).*)","destination":"/index.html"}]}
